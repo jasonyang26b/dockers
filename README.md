@@ -9,3 +9,7 @@ docker run -d nginx: create detached containers, which means still be able to ru
 docker ps: check current running containers
 
 docker images: check current containers
+
+docker stop ee5eba853e03: close the container ID
+
+docker run -d -p 9000:80 nginx: create a docker and load to the local. can be opened on website
